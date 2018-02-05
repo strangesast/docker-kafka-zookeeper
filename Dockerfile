@@ -1,6 +1,7 @@
 FROM strangesast/docker-kafka-base
 
-ENV KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
+# for small memory
+#ENV KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
 
 ADD kafka/start-kafka.sh zookeeper/start-zookeeper.sh /usr/bin/
 ADD kafka/server.properties .
