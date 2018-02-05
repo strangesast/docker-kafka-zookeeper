@@ -1,0 +1,3 @@
+[submodule "docker-kafka-base"]
+	path = docker-kafka-base
+	url = git@github.com:strangesast/docker-kafka-base.git
